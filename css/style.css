@@ -1,0 +1,175 @@
+:root{
+    --verde: #588157;
+    --branco: #ffffff;
+    --marrom: #432818;
+    --bege: #fefae0;
+    --ocre: #bc6c25;
+    --verde-claro: #ecf39e;
+    --verde-escuro: #344e41;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.titulo{
+    font-size: 3em;
+    color: var(--bege);
+}
+
+.subtitulo{
+    font-size: 2em;
+}
+
+#link-home{
+    font-size:3em;
+    color: var(--verde);
+    position: fixed;
+    z-index: 100;
+    right: 20px;
+    bottom: 50px;
+    background-color: var(--bege);
+    border-radius: 50%;
+}
+
+.header{
+    position: fixed;
+    width: 100vw;
+    height:3em;
+    background-color: var(--verde-escuro);
+}
+
+.header a{
+    color: var(--bege);
+    padding: 0 1em;
+}
+
+.header a:hover{
+    border-bottom: 2px solid var(--verde-claro);
+
+
+}
+
+.header-menu{
+    display:flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    width: 100vw;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4em;
+    background-image: url("../assets/images/plant.jpg");
+    
+}
+
+#home h2{
+    color: var(--verde-claro);
+}
+
+#sobre {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4em;
+    color: var(--marrom);
+    background-color: var(--bege);
+}
+
+#sobre-texto{
+    width: 50vw;
+}
+
+#dados_contato {
+    width: 100vw;
+    height: 50vh;
+    background-color: var(--verde);
+    color: var(--bege);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4em;
+}
+
+
+#dados_contato a{
+    color: var(--bege);
+}
+
+#dados_contato ul {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+#formacoes{
+    width: 100vw;
+    height: 50vh;
+    padding: 4em;
+    background-color: var(--bege);
+    color: var(--marrom);
+}
+
+#formacoes ol{
+    display: flex;
+    padding-top: 2em;   
+}
+
+#formacoes li{
+    padding-right: 2em;
+    list-style: none;
+    
+}
+
+#formacoes a{
+    color: var(--marrom);
+}
+
+#experiencias{
+    width: 100vw;
+    height: 87vh;
+    padding: 4em;
+    background-color: var(--verde);
+    color: var(--bege);
+}
+
+#experiencias ol {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 2em;
+}
+
+#experiencias ul {
+    padding-top:0.5em;
+}
+
+#experiencias li{
+    padding-right: 2em;
+    padding-top: 0.5em;
+}
+
+.footer {
+    width: 100vw;
+    height: 3em;
+    background-color: var(--verde-escuro);
+    padding: 0 4em;
+    display: flex;
+    align-items: center;
+    color: var(--bege);
+}
+
+.footer a {
+    color: var(--bege);
+    padding: 0 3px;
+}
