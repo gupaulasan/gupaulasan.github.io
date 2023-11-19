@@ -90,6 +90,9 @@
 
 #sobre-texto{
     width: 50vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
 }
 
 #dados_contato {
@@ -123,7 +126,8 @@
 
 #formacoes ol{
     display: flex;
-    padding-top: 2em;   
+    padding-top: 2em;
+    height: 40vh;  
 }
 
 #formacoes li{
@@ -148,6 +152,8 @@
     display:flex;
     justify-content: space-around;
     padding-top: 2em;
+    height: 50vh;
+
 }
 
 #experiencias ul {
